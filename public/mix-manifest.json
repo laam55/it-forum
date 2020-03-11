@@ -4,7 +4,14 @@
     "/css/app.css": "/css/app.css",
     "/js/custom.js": "/js/custom.js",
     "/js/manifest.js": "/js/manifest.js",
+    "/js/notifications.js": "/js/notifications.js",
     "/js/vendor.js": "/js/vendor.js",
     "/css/template.css": "/css/template.css",
-    "/css/admin.css": "/css/admin.css"
+    "/css/admin.css": "/css/admin.css",
+    "/js/jquery.js": "/js/jquery.js",
+    "/js/bootstrap.js": "/js/bootstrap.js",
+    "/css/codehtml.css": "/css/codehtml.css",
+    "/css/codephp.css": "/css/codephp.css",
+    "/css/code.css": "/css/code.css",
+    "/plugins/ckeditor/skins/moono-lisa/code_link.png": "/plugins/ckeditor/skins/moono-lisa/code_link.png"
 }

@@ -20,6 +20,7 @@ class SearchController extends Controller
     public function search()
     {
         $input = \Input::only('q', 'tab');
+        $input['q'] = trim(trim($input['q'], '['), ']');
         $allTags = $this->tagRepository->findByName($input['q']);
 
         if (!empty($allTags)) {

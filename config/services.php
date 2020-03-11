@@ -46,4 +46,10 @@ return [
         'redirect' => env('APP_URL') . '/auth/facebook/callback',
     ],
 
+    'google' => [
+        'client_id' => '226184312314-td3f78crp654q5t3kle1e9df3cthuite.apps.googleusercontent.com',
+        'client_secret' => 'kvJ_hV7sNeduNqWApgkfWpoS',
+        'redirect' => env('APP_URL') . '/auth/google/callback',
+    ],
+
 ];

@@ -49,6 +49,7 @@ class File extends Model
             'user_id' => Auth::id(),
             'f_id' => '1',
             'filename' => 'root',
+            'filename_ecrypt' => md5(Auth::id() . 'root' . now()),
             'is_folder' => 1,
         ];
         $file = new File();
